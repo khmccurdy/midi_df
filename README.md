@@ -38,20 +38,7 @@ kiev_s
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -63,7 +50,7 @@ kiev_s
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>The Great Gate of Kiev</td>
       <td></td>
@@ -71,7 +58,7 @@ kiev_s
       <td>tempo track</td>
       <td>{}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>Staff</td>
       <td>0</td>
@@ -79,7 +66,7 @@ kiev_s
       <td></td>
       <td>{0}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>Staff-1</td>
       <td>1</td>
@@ -109,20 +96,7 @@ kiev_tempo.head(10)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -133,70 +107,70 @@ kiev_tempo.head(10)
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>0</td>
       <td>2403.843750</td>
       <td>0</td>
       <td>0.000000</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>16128</td>
       <td>2604.166667</td>
       <td>38769192</td>
       <td>38.769192</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>22272</td>
       <td>2403.843750</td>
       <td>54769192</td>
       <td>54.769192</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>3</th>
       <td>35328</td>
       <td>2314.812500</td>
       <td>86153776</td>
       <td>86.153776</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>4</th>
       <td>46950</td>
       <td>2332.088542</td>
       <td>113056527</td>
       <td>113.056527</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>5</th>
       <td>47052</td>
       <td>2349.619792</td>
       <td>113294400</td>
       <td>113.294400</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>6</th>
       <td>47155</td>
       <td>2367.421875</td>
       <td>113536411</td>
       <td>113.536411</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>7</th>
       <td>47257</td>
       <td>2385.494792</td>
       <td>113777888</td>
       <td>113.777888</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>8</th>
       <td>47360</td>
       <td>2403.843750</td>
       <td>114023594</td>
       <td>114.023594</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>9</th>
       <td>47462</td>
       <td>2422.479167</td>
@@ -221,20 +195,7 @@ kiev_df1.head(15)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -248,7 +209,7 @@ kiev_df1.head(15)
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>0</td>
       <td>0</td>
@@ -258,7 +219,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>0</td>
       <td>0</td>
@@ -268,7 +229,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>0</td>
       <td>0</td>
@@ -278,7 +239,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>3</th>
       <td>0</td>
       <td>0</td>
@@ -288,7 +249,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>4</th>
       <td>0</td>
       <td>0</td>
@@ -298,7 +259,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>5</th>
       <td>0</td>
       <td>0</td>
@@ -308,7 +269,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>6</th>
       <td>0</td>
       <td>0</td>
@@ -318,7 +279,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>7</th>
       <td>0</td>
       <td>0</td>
@@ -328,7 +289,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>8</th>
       <td>0</td>
       <td>0</td>
@@ -338,7 +299,7 @@ kiev_df1.head(15)
       <td>0.000000</td>
       <td>0.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>9</th>
       <td>720</td>
       <td>720</td>
@@ -348,7 +309,7 @@ kiev_df1.head(15)
       <td>1.730767</td>
       <td>3.75</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>10</th>
       <td>0</td>
       <td>720</td>
@@ -358,7 +319,7 @@ kiev_df1.head(15)
       <td>1.730767</td>
       <td>3.75</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>11</th>
       <td>0</td>
       <td>720</td>
@@ -368,7 +329,7 @@ kiev_df1.head(15)
       <td>1.730767</td>
       <td>3.75</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>12</th>
       <td>0</td>
       <td>720</td>
@@ -378,7 +339,7 @@ kiev_df1.head(15)
       <td>1.730767</td>
       <td>3.75</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>13</th>
       <td>48</td>
       <td>768</td>
@@ -388,7 +349,7 @@ kiev_df1.head(15)
       <td>1.846152</td>
       <td>4.00</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>14</th>
       <td>0</td>
       <td>768</td>
@@ -416,20 +377,7 @@ kiev_c1.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -439,31 +387,31 @@ kiev_c1.head()
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>8</th>
       <td>0.00</td>
       <td>0.000000</td>
       <td>[63, 67, 70, 75]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>12</th>
       <td>3.75</td>
       <td>1.730767</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>16</th>
       <td>4.00</td>
       <td>1.846152</td>
       <td>[65, 70, 74, 77]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>20</th>
       <td>7.75</td>
       <td>3.576919</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>24</th>
       <td>8.00</td>
       <td>3.692304</td>
@@ -487,20 +435,7 @@ kiev_c2.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -510,31 +445,31 @@ kiev_c2.head()
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>8</th>
       <td>0.00</td>
       <td>0.000000</td>
       <td>[43, 46, 51, 55]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>12</th>
       <td>3.75</td>
       <td>1.730767</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>16</th>
       <td>4.00</td>
       <td>1.846152</td>
       <td>[41, 46, 50, 53]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>20</th>
       <td>7.75</td>
       <td>3.576919</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>24</th>
       <td>8.00</td>
       <td>3.692304</td>
@@ -558,20 +493,7 @@ kiev_m.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -583,7 +505,7 @@ kiev_m.head()
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>0.00</td>
       <td>0.000000</td>
@@ -591,7 +513,7 @@ kiev_m.head()
       <td>[43, 46, 51, 55]</td>
       <td>[67, 70, 43, 75, 46, 51, 55, 63]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>3.75</td>
       <td>1.730767</td>
@@ -599,7 +521,7 @@ kiev_m.head()
       <td>[]</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>4.00</td>
       <td>1.846152</td>
@@ -607,7 +529,7 @@ kiev_m.head()
       <td>[41, 46, 50, 53]</td>
       <td>[65, 70, 41, 74, 77, 46, 50, 53]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>3</th>
       <td>7.75</td>
       <td>3.576919</td>
@@ -615,7 +537,7 @@ kiev_m.head()
       <td>[]</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>4</th>
       <td>8.00</td>
       <td>3.692304</td>
@@ -640,20 +562,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -665,7 +574,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>0.00</td>
       <td>0.000000</td>
@@ -673,7 +582,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
       <td>[43, 46, 51, 55]</td>
       <td>[67, 70, 43, 75, 46, 51, 55, 63]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>3.75</td>
       <td>1.730767</td>
@@ -681,7 +590,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
       <td>[]</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>4.00</td>
       <td>1.846152</td>
@@ -689,7 +598,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
       <td>[41, 46, 50, 53]</td>
       <td>[65, 70, 41, 74, 77, 46, 50, 53]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>3</th>
       <td>7.75</td>
       <td>3.576919</td>
@@ -697,7 +606,7 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
       <td>[]</td>
       <td>[]</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>4</th>
       <td>8.00</td>
       <td>3.692304</td>
@@ -761,20 +670,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -786,7 +682,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr style="text-align: right;">
       <th>0</th>
       <td>A Song</td>
       <td></td>
@@ -794,7 +690,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td>tempo track</td>
       <td>{}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>1</th>
       <td>Guitar 1</td>
       <td>0</td>
@@ -802,7 +698,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td></td>
       <td>{25}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>2</th>
       <td>Guitar 2</td>
       <td>1</td>
@@ -810,7 +706,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td></td>
       <td>{26, 29}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>3</th>
       <td>Keyboard - Square Wave</td>
       <td>2</td>
@@ -818,7 +714,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td></td>
       <td>{80}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>4</th>
       <td>Organ</td>
       <td>3</td>
@@ -826,7 +722,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td></td>
       <td>{18}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>5</th>
       <td>Drum Kit</td>
       <td>9</td>
@@ -834,7 +730,7 @@ mdf.track_summary(fake_sample_file, recommend=True)
       <td></td>
       <td>{0}</td>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th>6</th>
       <td>Flute Solo</td>
       <td>10</td>
