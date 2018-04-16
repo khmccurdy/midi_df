@@ -1,6 +1,8 @@
 # Midi DF
 
-Midi DF is a Python module for converting midi data into DataFrames containing information on each chord in the midi file. DataFrames can be exported as JSON to facilitate use in external applications. Chords are stored as lists of midi pitches. Further reading on "dyads" and "interval classes", as well as the visualization technique that inspired this project, can be found [here](http://www.musanim.com/mam/dyad.htm).
+Midi DF is a Python module for converting midi data into DataFrames containing information on each chord in the midi file. DataFrames can be exported as JSON to facilitate use in external applications. Chords are stored as lists of midi pitches. Further reading on "dyads" and "interval classes", as well as the visualization technique that inspired this project, can be found [here](http://www.musanim.com/mam/dyad.htm). 
+
+Examples using exported JSON data: [After Effects](https://www.instagram.com/p/BgXvyptAbQV/?taken-by=khmccurdy) (using AE's Expressions system, based on JavaScript), [Processing](https://www.instagram.com/p/BgngiTWHkXv/?taken-by=khmccurdy) (realtime and interactive)
 
 Required libraries are pandas (0.20.3), numpy (1.13.3), and [midi](https://github.com/louisabraham/python3-midi) (0.2.3).
 
