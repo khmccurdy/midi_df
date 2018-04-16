@@ -8,7 +8,6 @@ import copy
 
 #Internal methods
 
-pd.DataFrame()
 def pitch(n):
     '''Return the pitch of a note event. Used in midi_to_df(). If "n" is not a note event, return None.
     
@@ -90,10 +89,8 @@ def get_time(ticks, tmap, u=False, min_row=0):
     
     if u:
         return (time*10**6,ind)
-        #return time*10**6
     else:
         return (time,ind)
-        #return time
 
 def fill_list(series,fv=0):
     '''Fill every cell containing a specified value in a list or series with the value before it. Used in merge_tracks().
@@ -240,7 +237,6 @@ def dyad_counts(chord):
     '''
     chord_ints=[x-y for x in chord for y in chord if x>y]
     dyad_counts = pd.Series([6-abs(6-x%12) for x in chord_ints]).value_counts(sort=False)
-    #dict(dyad_counts)
     return dyad_counts
 
 def dyad_counts_df(df, btp=True):
