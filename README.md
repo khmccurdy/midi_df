@@ -2,12 +2,12 @@
 
 Midi DF is a Python module for converting midi data into DataFrames containing information on each chord in the midi file. DataFrames can be exported as JSON to facilitate use in external applications. Chords are stored as lists of midi pitches. Further reading on "dyads" and "interval classes", as well as the visualization technique that inspired this project, can be found [here](http://www.musanim.com/mam/dyad.htm). 
 
-Examples using exported JSON data: [After Effects](https://www.instagram.com/p/BgXvyptAbQV/?taken-by=khmccurdy) (using AE's Expressions system, based on JavaScript), [Processing](https://www.instagram.com/p/BgngiTWHkXv/?taken-by=khmccurdy) (realtime and interactive)
+Examples using exported JSON data: [After Effects](https://www.instagram.com/p/BgXvyptAbQV/?taken-by=khmccurdy) (using AE's Expressions system, based on JavaScript), [Processing (p5.js)](https://khmccurdy.github.io/midi_df/example_output/dyad_p5.html) (realtime and interactive)
 
 Required libraries are pandas (0.20.3), numpy (1.13.3), and [midi](https://github.com/louisabraham/python3-midi) (0.2.3).
 
 ## Demo
-In short, `midi.read_midifile()` --> [`tempo_map()` -->] `midi_to_df()` --> `condense_df()` --> [`merge_df()` -->] `output_json()`.
+In short, `midi.read_midifile()` --> [`tempo_map()` -->] `midi_to_df()` --> `condense_df()` --> [`merge_tracks()` -->] `output_json()`.
 ### Dependencies
 
 
@@ -620,7 +620,13 @@ mdf.merge_tracks([mdf.condense_df(mdf.midi_to_df(kiev, t, kiev_tempo)) for t in 
 </table>
 </div>
 
+### Export to JSON
 
+```python
+output_json(kiev_m, "kiev.json")
+```
+
+The resulting JSON file can be found [here](example_output/kiev.json).
 
 ### Calculate the maximum chord size
 
